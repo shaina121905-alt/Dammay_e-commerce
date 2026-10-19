@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero-slide-1 {
+    background: url('../images/Slide1.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 450px;
+} 
+
+.hero-slide-2 {
+    background: url('../images/slide2.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 450px;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 450px;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
